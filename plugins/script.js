@@ -11,18 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let repo =`
-*╭──────────────●●►*
-> *BOT OWNER:*
-*|* *SANA KHAN*
-
-> *SANA_MD REPO:*
-*|* *https://github.com/sana3165829/SANA_MD*
-
-> *SUPPORT CHENNAL:*
-*|* *https://whatsapp.com/channel/0029VagcqzY1XquemrHOM51n*
-*╰──────────────●●►*
-
-> *CREATED BY MS SANA*
+*Come to dm bebe 🫦*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
